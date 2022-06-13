@@ -4,23 +4,12 @@ This repository holds work related to experiments on building a Dog Breed CNN cl
 
 ### Table of Contents
 
-1. [Installation](#installation)
 2. [Project Motivation](#motivation)
 3. [File Descriptions](#files)
 4. [Results](#results)
-5. [Licensing, Authors, and Acknowledgements](#licensing)
+5. [Support on Environment Preparation](#installation)
+6. [Licensing, Authors, and Acknowledgements](#licensing)
 
-## Installation <a name="installation"></a>
-
-The project should run on deployments of Python versions 3.*. 
-If deploying on a new conda or virtual environment, the following should be enough to execute the notebooks.
-* jupyter
-* numpy
-* pandas
-* matplotlib
-* sklearn
-* keras
-* opencv2
 
 ## Project Motivation<a name="motivation"></a>
 
@@ -32,16 +21,22 @@ belongs to.
 We provide the notebook for the step-by-step creation of the model in this repository, which will also
 contain links to the different pre-trained models used during the process of deciding which model to use as the base for experimenting with the classifier model.
 ## File Descriptions <a name="files"></a>
+The main files and folders contained in this repo are:
 
-The analysis process and results obtained are described in the *Seattle-AirBnb-Project* notebook available here. It showcases the whole process used during the analysis, from data preparation to analysis results. 
+- **dog_app.ipynb**: Jupyter notebook presenting all steps from importing dataset, creation of models, and results analysis.
+- **haarcascades/**: Folder containing export of Haar featurebased cascade classifiers to import.
+- **requirements/**: Folder with requirements for building environments with dependencies.
+- **images/**: Set of images used in the jupyter notebook and Medium post article.
+
 
 ## Results<a name="results"></a>
 
-The main findings of the code can be found on the Medium post available [here](https://adaltoc.medium.com/how-professional-renters-fair-in-airbnb-a-data-science-study-1d15b51d2cd5).
+The main findings of the code can be found on the Medium post available [here](https://adaltoc.medium.com/dog-breed-classifier-using-cnns-a50efe95a05b).
+
+## Support on Environment Preparation<a name="installation"></a>
+If you require support on preparing the environment to run this project, there is a detailed set of instructions in the [original template code repo](https://github.com/udacity/dog-project#instructions), maintained by Udacity.
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
-
-## References
 - Code: 
   - The base template code and original images used were provided as part of [Udacity's Data Scientis Nanodegree 
   course](https://www.udacity.com/course/data-scientist-nanodegree--nd025).

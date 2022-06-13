@@ -24,6 +24,7 @@ contain links to the different pre-trained models used during the process of dec
 The main files and folders contained in this repo are:
 
 - **dog_app.ipynb**: Jupyter notebook presenting all steps from importing dataset, creation of models, and results analysis.
+- **extract_bottleneck_features.py**: helper library provided on original Udacity code to support extraction of bottleneck features.
 - **haarcascades/**: Folder containing export of Haar featurebased cascade classifiers to import.
 - **requirements/**: Folder with requirements for building environments with dependencies.
 - **images/**: Set of images used in the jupyter notebook and Medium post article.
